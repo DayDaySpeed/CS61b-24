@@ -1,0 +1,51 @@
+# 默认规则：所有文本文件自动规范化换行符
+* text=auto
+
+# Java 源码文件统一使用 LF
+*.java text eol=lf
+
+# 配置文件（XML、YAML、JSON、Properties）
+*.xml   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.properties text eol=lf
+
+# Markdown / 文档文件
+*.md    text eol=lf
+*.txt   text eol=lf
+
+# Shell / 脚本文件（必须 LF，否则 Linux 下无法执行）
+*.sh    text eol=lf
+*.bash  text eol=lf
+
+# Windows 批处理脚本（保持 CRLF）
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# HTML / CSS / JS 前端资源
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+
+# 常见构建工具文件
+*.gradle text eol=lf
+*.groovy text eol=lf
+pom.xml text eol=lf
+
+# License / 配置
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# 二进制文件（不做换行符转换）
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.pdf   binary
+*.jar   binary
+*.war   binary
+*.ear   binary
+*.class binary
