@@ -4,28 +4,4 @@
 # 编译输出目录
 out/
 
-# Gradle 缓存和构建输出
-.gradle/
-build/
 
-# Maven 构建输出
-target/
-
-# 日志文件
-*.log
-
-# 临时文件
-*.tmp
-*.swp
-
-# 操作系统生成的文件
-.DS_Store
-Thumbs.db
-
-# Java 编译的 class 文件
-*.class
-
-# JAR / WAR / EAR 打包文件（如果不需要提交）
-*.jar
-*.war
-*.ear
